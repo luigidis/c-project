@@ -2,6 +2,7 @@
 // il .h è un file che si chiama header
 //std --> standard io --> input/outuput quindi vuol dire che fa parte della libreria standard e si occupa di input e output
 #include <stdio.h>
+#include <stdlib.h>
 
 //Tecnimcamente questa è una funzione, una funzione non è altro che un blocco di codice
 int main() {
@@ -35,7 +36,6 @@ int main() {
     printf("Casting esplicito: %d\n", (int)x);
     printf("Casting implicito: %d\n", z);
 
-    printf("Hello World\n");
    //Perchè utlizzo le costanti invece delle variabili?
    // Li utilizziamo ovviamente per rendere più leggibile il codice
    //Ongi tipo di dato occupa un certo numero di spazio in memoria
@@ -64,11 +64,11 @@ int main() {
    // %f --> stampare un float
 
 
-   int x = 30;
-   float y = x;
+   int u = 30;
+   float o = u;
 
 
-   printf("ciao ho %f anni", y);
+   printf("\nciao ho %f anni", o);
 
 
    const int a = 1;
@@ -85,7 +85,14 @@ int main() {
    printf("\nValore: %d", valoreRisultato);
 
 
-   int completo = rand() % (b-a+1) + a
+   int completo = rand() % (b-a+1) + a;
+
+
+   int n = 11;
+   int m = ++x; // Se metto ++ prima la x allora la mia varabile x verrà prima aumentata e poi verrà assegna a y
+
+   int t = 10;
+   int j = t++; // Se metto invece ++ dopo allora prima verrà assegnata t a j e poi a j verrà aggiunto un +1
 
     return 0;
 }
