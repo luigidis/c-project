@@ -34,5 +34,58 @@ int main() {
 
     printf("Casting esplicito: %d\n", (int)x);
     printf("Casting implicito: %d\n", z);
+
+    printf("Hello World\n");
+   //Perchè utlizzo le costanti invece delle variabili?
+   // Li utilizziamo ovviamente per rendere più leggibile il codice
+   //Ongi tipo di dato occupa un certo numero di spazio in memoria
+   //ci permettono di fare più economia della memoria
+
+
+   //Tipi di dati
+   // int // 4 byte ci permette di slavare numeri da - due miliardi a + due miliardi e qualcosa
+   // short // 2 byte -32mila fino a 32727
+   // long //8 byte miliardi di miliardi
+   // long long
+  
+   //IN base al tipo più numeri dopo la virgola a disposizone (generalmente si va con il double)
+   // float //Numeri con la virgola  
+   // double //
+   // long double//
+
+
+   // char //sta per carattere
+   // bool // valori booleani
+
+
+   //Che cosa sono gli specificatori?
+   // %d --> serve a farmi stampare un intero
+   // %c ---> server a farmi stampare un carattere
+   // %f --> stampare un float
+
+
+   int x = 30;
+   float y = x;
+
+
+   printf("ciao ho %f anni", y);
+
+
+   const int a = 1;
+   const int b = 2;
+   const int valoRandom = rand();
+
+
+   printf("\nValore random: %d", valoRandom);
+
+
+   int valoreRisultato = valoRandom % (b-a+1) + a;
+
+
+   printf("\nValore: %d", valoreRisultato);
+
+
+   int completo = rand() % (b-a+1) + a
+
     return 0;
 }
